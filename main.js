@@ -9,8 +9,8 @@
 const utils = require('@iobroker/adapter-core');
 const maxoutputs = 10;
 
-
-
+//----Connect:   echo -e -n '\xf0''\x45''\x01''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\xf7' | nc 192.168.1.224 1024
+//----Disconnect:echo -e -n '\xf0''\x45''\x01''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\xf7' | nc 192.168.1.224 1024
 var adapter = utils.adapter('videomatrix');
 
 // Load your modules here, e.g.:
