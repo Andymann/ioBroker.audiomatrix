@@ -1,6 +1,6 @@
 {
 	"common": {
-		"name": "audiomatrix",
+		"name": "audiomatrix.8",
 		"version": "0.0.5f",
 		"news": {
 			"0.0.1": {
@@ -16,30 +16,30 @@
 				"zh-cn": "首次出版"
 			}
 		},
-		"title": "BTouch audiomatrix",
+		"title": "BTouch Audiomatrix",
 		"titleLang": {
-			"en": "BTouch audiomatrix",
-			"de": "BTouch audiomatrix",
-			"ru": "BTouch audiomatrix",
-			"pt": "BTouch audiomatrix",
-			"nl": "BTouch audiomatrix",
-			"fr": "BTouch audiomatrix",
-			"it": "BTouch audiomatrix",
-			"es": "BTouch audiomatrix",
-			"pl": "BTouch audiomatrix",
-			"zh-cn": "BTouch audiomatrix"
+			"en": "BTouch Audiomatrix",
+			"de": "BTouch Audiomatrix",
+			"ru": "BTouch Audiomatrix",
+			"pt": "BTouch Audiomatrix",
+			"nl": "BTouch Audiomatrix",
+			"fr": "BTouch Audiomatrix",
+			"it": "BTouch Audiomatrix",
+			"es": "BTouch Audiomatrix",
+			"pl": "BTouch Audiomatrix",
+			"zh-cn": "BTouch Audiomatrix"
 		},
 		"desc": {
-			"en": "Adapter for controlling BTouch audiomatrix devices",
-			"de": "Adapter zur Steuerung von BTouch audiomatrix-Geräten",
-			"ru": "Адаптер для управления устройствами BTouch audiomatrix",
-			"pt": "Adaptador para controlar dispositivos BTouch audiomatrix",
-			"nl": "Adapter voor het regelen van BTouch audiomatrix-apparaten",
-			"fr": "Adaptateur pour contrôler les périphériques BTouch audiomatrix",
-			"it": "Adattatore per il controllo di dispositivi BTouch audiomatrix",
-			"es": "Adaptador para controlar dispositivos BTouch audiomatrix",
-			"pl": "Adapter do sterowania urządzeniami BTouch audiomatrix",
-			"zh-cn": "用于控制BTouch audiomatrix设备的适配器"
+			"en": "Adapter for controlling BTouch Audiomatrix Devices",
+			"de": "Adapter zur Steuerung von BTouch Audiomatrix-Geräten",
+			"ru": "Адаптер для управления устройствами BTouch Audiomatrix",
+			"pt": "Adaptador para controlar dispositivos BTouch Audiomatrix",
+			"nl": "Adapter voor het regelen van BTouch Audiomatrix-apparaten",
+			"fr": "Adaptateur pour contrôler les périphériques BTouch Audiomatrix",
+			"it": "Adattatore per il controllo di dispositivi BTouch Audiomatrix",
+			"es": "Adaptador para controlar dispositivos BTouch Audiomatrix",
+			"pl": "Adapter do sterowania urządzeniami BTouch Audiomatrix",
+			"zh-cn": "用于控制BTouch Audiomatrix设备的适配器"
 		},
 		"authors": [
 			"Andy <info@Andyland.info>"
@@ -53,8 +53,8 @@
 		"main": "main.js",
 		"icon": "audiomatrix.png",
 		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/Andymann/ioBroker.audiomatrix/master/admin/audiomatrix.png",
-		"readme": "https://github.com/Andymann/ioBroker.audiomatrix/blob/master/README.md",
+		"extIcon": "https://raw.githubusercontent.com/Andymann/ioBroker.audiomatrix.8/master/admin/audiomatrix.png",
+		"readme": "https://github.com/Andymann/ioBroker.audiomatrix.8/blob/master/README.md",
 		"loglevel": "info",
 		"mode": "daemon",
 		"type": "multimedia",
