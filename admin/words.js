@@ -3,9 +3,9 @@ global systemDictionary:true
 
 systemDictionary = {
 	'audiomatrix adapter settings': {
-		'en': 'Adapter settings for audiomatrix',
-		'de': 'Adaptereinstellungen für audiomatrix',
-		'ru': 'Настройки адаптера для audiomatrix',
+		'en': 'Adapter settings for Audiomatrix',
+		'de': 'Adaptereinstellungen für Audiomatrix',
+		'ru': 'Настройки адаптера для Audiomatrix',
 		'pt': 'Configurações do adaptador para audiomatrix',
 		'nl': 'Adapterinstellingen voor audiomatrix',
 		'fr': "Paramètres d'adaptateur pour audiomatrix",
