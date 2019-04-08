@@ -234,7 +234,7 @@ class audiomatrix extends utils.Adapter {
 			native: {},
 		});
 		
-
+/*
 		//----Anlegen der Ausgaenge
 		for (var i = 1; i < maxoutputs+1; i++) {
 			await this.setObjectAsync('output_' + i.toString(), {
@@ -249,6 +249,7 @@ class audiomatrix extends utils.Adapter {
 				native: {},
 			});
 		}
+*/		
 		// in this template all states changes inside the adapters namespace are subscribed
 		this.subscribeStates('*');
 
