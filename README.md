@@ -1,5 +1,5 @@
 <h1>
-	<img src="admin/videomatrix.png" width="64"/>
+	<img src="admin/audiomatrix.png" width="64"/>
 	ioBroker.videomatrix.8
 </h1>
 
