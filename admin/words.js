@@ -2,17 +2,17 @@ global systemDictionary:true
 'use strict';
 
 systemDictionary = {
-	'videomatrix adapter settings': {
-		'en': 'Adapter settings for videomatrix',
-		'de': 'Adaptereinstellungen für videomatrix',
-		'ru': 'Настройки адаптера для videomatrix',
-		'pt': 'Configurações do adaptador para videomatrix',
-		'nl': 'Adapterinstellingen voor videomatrix',
-		'fr': "Paramètres d'adaptateur pour videomatrix",
-		'it': "Impostazioni dell'adattatore per videomatrix",
-		'es': 'Ajustes del adaptador para videomatrix',
-		'pl': 'Ustawienia adaptera dla videomatrix',
-		'zh-cn': 'videomatrix的适配器设置'
+	'audiomatrix adapter settings': {
+		'en': 'Adapter settings for audiomatrix',
+		'de': 'Adaptereinstellungen für audiomatrix',
+		'ru': 'Настройки адаптера для audiomatrix',
+		'pt': 'Configurações do adaptador para audiomatrix',
+		'nl': 'Adapterinstellingen voor audiomatrix',
+		'fr': "Paramètres d'adaptateur pour audiomatrix",
+		'it': "Impostazioni dell'adattatore per audiomatrix",
+		'es': 'Ajustes del adaptador para audiomatrix',
+		'pl': 'Ustawienia adaptera dla audiomatrix',
+		'zh-cn': 'audiomatrix的适配器设置'
 	},
 /*
 	'option1': {

@@ -3,19 +3,19 @@
 	ioBroker.audiomatrix.8
 </h1>
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.videomatrix.svg)](https://www.npmjs.com/package/iobroker.videomatrix)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.videomatrix.svg)](https://www.npmjs.com/package/iobroker.videomatrix)
-[![Dependency Status](https://img.shields.io/david/Andymann/iobroker.videomatrix.svg)](https://david-dm.org/Andymann/iobroker.videomatrix)
-[![Known Vulnerabilities](https://snyk.io/test/github/Andymann/ioBroker.videomatrix/badge.svg)](https://snyk.io/test/github/Andymann/ioBroker.videomatrix)
+[![NPM version](http://img.shields.io/npm/v/iobroker.audiomatrix.svg)](https://www.npmjs.com/package/iobroker.audiomatrix)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.audiomatrix.svg)](https://www.npmjs.com/package/iobroker.audiomatrix)
+[![Dependency Status](https://img.shields.io/david/Andymann/iobroker.audiomatrix.svg)](https://david-dm.org/Andymann/iobroker.audiomatrix)
+[![Known Vulnerabilities](https://snyk.io/test/github/Andymann/ioBroker.audiomatrix/badge.svg)](https://snyk.io/test/github/Andymann/ioBroker.audiomatrix)
 
-[![NPM](https://nodei.co/npm/iobroker.videomatrix.png?downloads=true)](https://nodei.co/npm/iobroker.videomatrix/)
+[![NPM](https://nodei.co/npm/iobroker.audiomatrix.png?downloads=true)](https://nodei.co/npm/iobroker.audiomatrix/)
 
-**Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/Andymann/ioBroker.videomatrix/master.svg)](https://travis-ci.org/Andymann/ioBroker.videomatrix)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Andymann/ioBroker.videomatrix?branch=master&svg=true)](https://ci.appveyor.com/project/Andymann/ioBroker-videomatrix/)
+**Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/Andymann/ioBroker.audiomatrix/master.svg)](https://travis-ci.org/Andymann/ioBroker.audiomatrix)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Andymann/ioBroker.audiomatrix?branch=master&svg=true)](https://ci.appveyor.com/project/Andymann/ioBroker-audiomatrix/)
 
-## videomatrix adapter for ioBroker
+## audiomatrix adapter for ioBroker
 
-Adapter for controlling BTouch VideoMatrix devices
+Adapter for controlling BTouch audiomatrix devices
 
 ## Changelog
 

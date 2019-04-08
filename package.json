@@ -1,12 +1,12 @@
 {
-  "name": "iobroker.videomatrix",
+  "name": "iobroker.audiomatrix",
   "version": "0.0.2",
-  "description": "Adapter for controlling BTouch VideoMatrix devices",
+  "description": "Adapter for controlling BTouch audiomatrix devices",
   "author": {
     "name": "Andy",
     "email": "info@Andyland.info"
   },
-  "homepage": "https://github.com/Andymann/ioBroker.videomatrix",
+  "homepage": "https://github.com/Andymann/ioBroker.audiomatrix",
   "license": "MIT",
   "keywords": [
     "Video",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Andymann/ioBroker.videomatrix"
+    "url": "https://github.com/Andymann/ioBroker.audiomatrix"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3"
@@ -52,7 +52,7 @@
     "lint:js": "eslint"
   },
   "bugs": {
-    "url": "https://github.com/Andymann/ioBroker.videomatrix/issues"
+    "url": "https://github.com/Andymann/ioBroker.audiomatrix/issues"
   },
   "readmeFilename": "README.md"
 }

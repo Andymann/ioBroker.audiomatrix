@@ -11,7 +11,7 @@ const maxoutputs = 10;
 
 //----Connect:   echo -e -n '\xf0''\x45''\x01''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\xf7' | nc 192.168.1.224 1024
 //----Disconnect:echo -e -n '\xf0''\x45''\x01''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\xf7' | nc 192.168.1.224 1024
-var adapter = utils.adapter('videomatrix');
+//var adapter = utils.adapter('audiomatrix');
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
@@ -27,7 +27,7 @@ var in_msg = '';
 
 var parentThis;
 
-class Videomatrix extends utils.Adapter {
+class audiomatrix extends utils.Adapter {
 
 	
 	
@@ -37,7 +37,7 @@ class Videomatrix extends utils.Adapter {
 	constructor(options) {
 		super({
 			...options,
-			name: 'videomatrix',
+			name: 'audiomatrix',
 		});
 		this.on('ready', this.onReady.bind(this));
 		this.on('objectChange', this.onObjectChange.bind(this));
@@ -74,7 +74,7 @@ class Videomatrix extends utils.Adapter {
  		
 		var host = this.config.host ? this.config.host : '192.168.1.56';
 		var port = this.config.port ? this.config.port : 23;
-		this.log.info('VideoMatrix connecting to: ' + this.config.host + ':' + this.config.port);
+		this.log.info('audiomatrix connecting to: ' + this.config.host + ':' + this.config.port);
 
 		matrix = new net.Socket();
 		matrix.connect(this.config.port, this.config.host, function() {
@@ -92,7 +92,7 @@ class Videomatrix extends utils.Adapter {
 			
 		matrix.on('data', function(chunk) {
 			in_msg += chunk;
-			parentThis.log.info("VideoMatrix incomming: " + in_msg);
+			parentThis.log.info("audiomatrix incomming: " + in_msg);
 			//----// Version: V2.6.152
 			if(in_msg.toLowerCase().indexOf('version')>-1){
 				if(connection == false){
@@ -116,7 +116,7 @@ class Videomatrix extends utils.Adapter {
 
 		matrix.on('close', function(e) {
 			if(connection){
-				parentThis.log.error('VideoMatrix disconnected');
+				parentThis.log.error('audiomatrix disconnected');
 			}
 			parentThis.reconnect();
 		});
@@ -125,7 +125,7 @@ class Videomatrix extends utils.Adapter {
 
 	
 	send(cmd){
-		this.log.info('VideoMatrix send:' + cmd);
+		this.log.info('audiomatrix send:' + cmd);
 		if (cmd !== undefined){
 			cmd = cmd + '\n\r';
 			matrix.write(cmd);
@@ -137,7 +137,7 @@ class Videomatrix extends utils.Adapter {
 	matrixchanged(id, state){
 		//this.log.info('matrixChanged:' + id +' ' + state);
 
-		//----videomatrix.0.output_1 12
+		//----audiomatrix.0.output_1 12
 		//if(id.toLowerCase().inlcudes('output')==true){
             	//	this.log.info('matrixChanged: output changed');
 		//	var outputid = id.substring(id.lastIndexOf('_'));
@@ -277,7 +277,7 @@ class Videomatrix extends utils.Adapter {
 	onStateChange(id, state) {
 		if (state) {
 			// The state was changed
-			//state videomatrix.0.testVariable changed: 
+			//state audiomatrix.0.testVariable changed: 
 			this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
 			this.matrixchanged(id, state.val);
 
@@ -311,8 +311,8 @@ if (module.parent) {
 	/**
 	 * @param {Partial<ioBroker.AdapterOptions>} [options={}]
 	 */
-	module.exports = (options) => new Videomatrix(options);
+	module.exports = (options) => new audiomatrix(options);
 } else {
 	// otherwise start the instance directly
-	new Videomatrix();
+	new audiomatrix();
 }
