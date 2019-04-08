@@ -15,7 +15,7 @@ Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Andyman
 
 ## audiomatrix adapter for ioBroker
 
-Adapter for controlling BTouch Audiomatrix devices
+Adapter for controlling BTouch Audiomatrix Devices
 
 ## Changelog
 
