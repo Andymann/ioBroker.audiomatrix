@@ -1,6 +1,6 @@
 <h1>
 	<img src="admin/audiomatrix.png" width="64"/>
-	ioBroker.videomatrix.8
+	ioBroker.audiomatrix.8
 </h1>
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.videomatrix.svg)](https://www.npmjs.com/package/iobroker.videomatrix)
