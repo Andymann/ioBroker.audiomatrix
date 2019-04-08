@@ -149,6 +149,15 @@ class audiomatrix extends utils.Adapter {
 		//	this.log.info('matrixChanged: outputid:` + outputid +' cmd:' + state + 'V' + outputid + '.');
 		//}
 		//var n = id.includes(".output");
+		if(id.toString().includes('btConnection')){
+			this.log.info('matrixChanged: Connection');
+			this.send( cmdConnect );
+		}	
+		if(id.toString().includes('btDisconnection')){
+			this.log.info('matrixChanged: Disconnection');
+			this.send( cmdDisconnect );
+		}
+		
 		if(id.toString().includes('.output')){
 			this.log.info('matrixChanged: output changed');
 			//var outputid = id.toLowerCase().substring(id.lastIndexOf('_')+1, id.toLowerCase().lastIndexOf(' '));
@@ -200,6 +209,31 @@ class audiomatrix extends utils.Adapter {
 			},
 			native: {},
 		});
+		
+		await this.setObjectAsync('btConnection', {
+			type: 'state',
+			common: {
+				name: 'BT Connection',
+				type: 'boolean',
+				role: 'indicator',
+				read: true,
+				write: true,
+			},
+			native: {},
+		});
+		
+		await this.setObjectAsync('btDisconnection', {
+			type: 'state',
+			common: {
+				name: 'BT Disconnection',
+				type: 'boolean',
+				role: 'indicator',
+				read: true,
+				write: true,
+			},
+			native: {},
+		});
+		
 
 		//----Anlegen der Ausgaenge
 		for (var i = 1; i < maxoutputs+1; i++) {
