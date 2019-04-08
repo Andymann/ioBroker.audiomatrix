@@ -13,6 +13,11 @@ const maxoutputs = 10;
 //----Disconnect:echo -e -n '\xf0''\x45''\x01''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\x00''\xf7' | nc 192.168.1.224 1024
 //var adapter = utils.adapter('audiomatrix');
 
+//var array = new Array(0x10, 0x11, 0x12);
+var idDevice = 0x01;
+var cmdConnect =	new Array(0xf0, 0x45, idDevice, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xf7);
+var cmdDisconnect =	new Array(0xf0, 0x45, idDevice, 0xf0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xf7);
+
 // Load your modules here, e.g.:
 // const fs = require("fs");
 var net = require('net');
