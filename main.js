@@ -42,7 +42,7 @@ class audiomatrix extends utils.Adapter {
 	constructor(options) {
 		super({
 			...options,
-			name: 'audiomatrix',
+			name: 'audiomatrix.8',
 		});
 		this.on('ready', this.onReady.bind(this));
 		this.on('objectChange', this.onObjectChange.bind(this));
